@@ -40,3 +40,32 @@
     padding: 10px;
 }
 
+/* For Webkit Browsers (Chrome, Edge, Safari, Opera) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background for the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #444; /* Dark gray scrollbar thumb */
+    border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Slightly lighter gray on hover */
+  }
+  
+  /* Optional: Adjust corner pieces */
+  ::-webkit-scrollbar-corner {
+    background: #1e1e1e; /* Same as the track */
+  }
+  
+  /* For Firefox (Custom Scrollbar) */
+  * {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #444 #1e1e1e; /* Thumb color and track color */
+  }
+  
